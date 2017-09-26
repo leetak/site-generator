@@ -1,0 +1,39 @@
+site_name: Leetak
+theme: material
+theme_dir: material
+
+extra:
+  logo:
+    icon: 'flight'
+  palette:
+    primary: 'indigo'
+    accent: 'light blue'
+
+# Page tree
+pages:
+  - Leetak: index.md
+  - Акции, новости: sales.md
+  - Жилье: accommodation.md
+  - Маршрут: route.md
+  - Моб. приложения: applications.md
+  - Моб. связь: mobile.md
+  - Транспорт:
+    - Авиа: transport/avia.md
+    - Авто: transport/car.md
+    - Бус: transport/bus.md
+    - Железная дорога: transport/railway.md
+    - Морской: transport/sea.md
+  - Турагенства: tour-operators.md
+
+# Google Analytics
+google_analytics:
+  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+  - auto
+
+markdown_extensions:
+  - admonition
+  - toc(permalink=true)
+
+google_analytics:
+  - 'UA-107108981-1'
+  - 'auto'
