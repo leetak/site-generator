@@ -16,6 +16,7 @@
 * [Форум Винского](http://forum.awd.ru/viewforum.php?f=60)
 * [fly4free.com](http://fly4free.com)
 * [perito-burrito.com](https://perito-burrito.com)
+* [veterdoit.com](https://veterdoit.com)
 
 
 Мониторить каждый сайт отдельно не очень удобно, да и в случае с соц сетями акции могут легко затеряться в 
